@@ -1,7 +1,7 @@
 const express = require ('express');
 const app = express();
 
-let product = require('./product.js')
+let product = require('./model/product.js')
 
 const PORT = process.env.PORT || 3000;
 
